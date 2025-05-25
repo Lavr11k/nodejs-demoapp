@@ -1,0 +1,7 @@
+vpc_name       = "VPC-dev"
+vpc_cidr_block = "10.10.0.0/16"
+asg_name = "nodejs-asg"
+asg_launch_template_name = "nodejs-lt"
+asg_launch_template_description = "Launch template for a simple NodeJS application using docker inside"
+alb_name = "nodejs-alb"
+web_server_sg_name = "nodejs-sg"
